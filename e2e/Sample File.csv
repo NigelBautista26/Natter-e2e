@@ -1,0 +1,3 @@
+email,name,role,privileges
+sample@mail.com,Optional Guest Name,COMMUNITY_MEMBER
+sample2@mail.com,Optional Guest Name,COMMUNITY_MEMBER_CUSTOM,"CREATE_EVENT, VIEW_REPORTS"
