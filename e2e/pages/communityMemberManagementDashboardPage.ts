@@ -142,7 +142,7 @@ export enum UserRoleEnum {
   CustomAccess,
 }
 
-const rolePageLocatorsMapping = {
+const rolePageLocatorsMapping: Record<UserRoleEnum, PageLocator> = {
   [UserRoleEnum.CommunityOwner]: communityOwnerTab,
   [UserRoleEnum.CommunityManager]: communityManagerTab,
   [UserRoleEnum.CommunityMember]: communityMemberTab,

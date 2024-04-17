@@ -1,58 +1,38 @@
 {
   "cookies": [
     {
-      "name": "AUTH_SESSION_ID",
-      "value": "4ec5fa56-8cae-43ed-be7c-7056f277211a.keycloak-1-4681",
-      "domain": "dev-auth.natter.network",
-      "path": "/realms/Natter/",
-      "expires": -1,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
       "name": "AUTH_SESSION_ID_LEGACY",
-      "value": "4ec5fa56-8cae-43ed-be7c-7056f277211a.keycloak-1-4681",
+      "value": "e4b967e4-1ae1-4f25-8582-17367a6948d7.keycloak-0-53037",
       "domain": "dev-auth.natter.network",
       "path": "/realms/Natter/",
       "expires": -1,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
+    },
+    {
+      "name": "AUTH_SESSION_ID",
+      "value": "e4b967e4-1ae1-4f25-8582-17367a6948d7.keycloak-0-53037",
+      "domain": "dev-auth.natter.network",
+      "path": "/realms/Natter/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
     },
     {
       "name": "KEYCLOAK_SESSION_LEGACY",
-      "value": "Natter/991fa9c0-dc54-41b3-b092-fb304f6410f4/4ec5fa56-8cae-43ed-be7c-7056f277211a",
+      "value": "Natter/06af718a-7dcf-47f2-ab6c-ea9cfb2ecb21/e4b967e4-1ae1-4f25-8582-17367a6948d7",
       "domain": "dev-auth.natter.network",
       "path": "/realms/Natter/",
-      "expires": 1713911356.025914,
+      "expires": 1720027574.717215,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
-    },
-    {
-      "name": "KEYCLOAK_IDENTITY_LEGACY",
-      "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIyYzg4NmI4OS05MmNlLTQ4NTYtODIzMy1lMmI1ZTdjMDgyMTYifQ.eyJleHAiOjE3MTM5MTEzNTYsImlhdCI6MTcxMzMwNjU1NiwianRpIjoiOGZmYzM2MmItYTNiZS00MDkyLTg1MjItZjgwMjdmM2IzNDNlIiwiaXNzIjoiaHR0cHM6Ly9kZXYtYXV0aC5uYXR0ZXIubmV0d29yay9yZWFsbXMvTmF0dGVyIiwic3ViIjoiOTkxZmE5YzAtZGM1NC00MWIzLWIwOTItZmIzMDRmNjQxMGY0IiwidHlwIjoiU2VyaWFsaXplZC1JRCIsInNlc3Npb25fc3RhdGUiOiI0ZWM1ZmE1Ni04Y2FlLTQzZWQtYmU3Yy03MDU2ZjI3NzIxMWEiLCJzaWQiOiI0ZWM1ZmE1Ni04Y2FlLTQzZWQtYmU3Yy03MDU2ZjI3NzIxMWEiLCJzdGF0ZV9jaGVja2VyIjoidVktQk5NcThXSWZqWDU2WXIyN2NFN0t2ZndzVlRBYWNHdHV3NFM5aDVrbyJ9.h4fgErFbIJb5Z1pVgmhxXOncXNLOGOu2DVI7noGBxAU",
-      "domain": "dev-auth.natter.network",
-      "path": "/realms/Natter/",
-      "expires": -1,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "KEYCLOAK_SESSION",
-      "value": "Natter/991fa9c0-dc54-41b3-b092-fb304f6410f4/4ec5fa56-8cae-43ed-be7c-7056f277211a",
-      "domain": "dev-auth.natter.network",
-      "path": "/realms/Natter/",
-      "expires": 1713911356.025987,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
     },
     {
       "name": "KEYCLOAK_IDENTITY",
-      "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIyYzg4NmI4OS05MmNlLTQ4NTYtODIzMy1lMmI1ZTdjMDgyMTYifQ.eyJleHAiOjE3MTM5MTEzNTYsImlhdCI6MTcxMzMwNjU1NiwianRpIjoiOGZmYzM2MmItYTNiZS00MDkyLTg1MjItZjgwMjdmM2IzNDNlIiwiaXNzIjoiaHR0cHM6Ly9kZXYtYXV0aC5uYXR0ZXIubmV0d29yay9yZWFsbXMvTmF0dGVyIiwic3ViIjoiOTkxZmE5YzAtZGM1NC00MWIzLWIwOTItZmIzMDRmNjQxMGY0IiwidHlwIjoiU2VyaWFsaXplZC1JRCIsInNlc3Npb25fc3RhdGUiOiI0ZWM1ZmE1Ni04Y2FlLTQzZWQtYmU3Yy03MDU2ZjI3NzIxMWEiLCJzaWQiOiI0ZWM1ZmE1Ni04Y2FlLTQzZWQtYmU3Yy03MDU2ZjI3NzIxMWEiLCJzdGF0ZV9jaGVja2VyIjoidVktQk5NcThXSWZqWDU2WXIyN2NFN0t2ZndzVlRBYWNHdHV3NFM5aDVrbyJ9.h4fgErFbIJb5Z1pVgmhxXOncXNLOGOu2DVI7noGBxAU",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIyYzg4NmI4OS05MmNlLTQ4NTYtODIzMy1lMmI1ZTdjMDgyMTYifQ.eyJleHAiOjE3MjAwMjc1NzQsImlhdCI6MTcxOTQyMjc3NCwianRpIjoiODlkYjQ4OTctZjcwMS00NmE3LTg2ZjYtNjNkNjI4MWRhMzA1IiwiaXNzIjoiaHR0cHM6Ly9kZXYtYXV0aC5uYXR0ZXIubmV0d29yay9yZWFsbXMvTmF0dGVyIiwic3ViIjoiMDZhZjcxOGEtN2RjZi00N2YyLWFiNmMtZWE5Y2ZiMmVjYjIxIiwidHlwIjoiU2VyaWFsaXplZC1JRCIsInNlc3Npb25fc3RhdGUiOiJlNGI5NjdlNC0xYWUxLTRmMjUtODU4Mi0xNzM2N2E2OTQ4ZDciLCJzaWQiOiJlNGI5NjdlNC0xYWUxLTRmMjUtODU4Mi0xNzM2N2E2OTQ4ZDciLCJzdGF0ZV9jaGVja2VyIjoiNUtHeS1mck5mcll6OHRfaWlPZ21uRDE1eldtUERmQ0R3UWlCNTB1WlJxVSJ9.XZGKERcJ83wIwjGPyv3uOSOYZbOBdxfnp8lolIixP9k",
       "domain": "dev-auth.natter.network",
       "path": "/realms/Natter/",
       "expires": -1,
@@ -61,11 +41,31 @@
       "sameSite": "None"
     },
     {
+      "name": "KEYCLOAK_SESSION",
+      "value": "Natter/06af718a-7dcf-47f2-ab6c-ea9cfb2ecb21/e4b967e4-1ae1-4f25-8582-17367a6948d7",
+      "domain": "dev-auth.natter.network",
+      "path": "/realms/Natter/",
+      "expires": 1720027574.71725,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "KEYCLOAK_IDENTITY_LEGACY",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIyYzg4NmI4OS05MmNlLTQ4NTYtODIzMy1lMmI1ZTdjMDgyMTYifQ.eyJleHAiOjE3MjAwMjc1NzQsImlhdCI6MTcxOTQyMjc3NCwianRpIjoiODlkYjQ4OTctZjcwMS00NmE3LTg2ZjYtNjNkNjI4MWRhMzA1IiwiaXNzIjoiaHR0cHM6Ly9kZXYtYXV0aC5uYXR0ZXIubmV0d29yay9yZWFsbXMvTmF0dGVyIiwic3ViIjoiMDZhZjcxOGEtN2RjZi00N2YyLWFiNmMtZWE5Y2ZiMmVjYjIxIiwidHlwIjoiU2VyaWFsaXplZC1JRCIsInNlc3Npb25fc3RhdGUiOiJlNGI5NjdlNC0xYWUxLTRmMjUtODU4Mi0xNzM2N2E2OTQ4ZDciLCJzaWQiOiJlNGI5NjdlNC0xYWUxLTRmMjUtODU4Mi0xNzM2N2E2OTQ4ZDciLCJzdGF0ZV9jaGVja2VyIjoiNUtHeS1mck5mcll6OHRfaWlPZ21uRDE1eldtUERmQ0R3UWlCNTB1WlJxVSJ9.XZGKERcJ83wIwjGPyv3uOSOYZbOBdxfnp8lolIixP9k",
+      "domain": "dev-auth.natter.network",
+      "path": "/realms/Natter/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
       "name": "intercom-id-gtxki9gc",
-      "value": "3d65e939-3796-4d7b-b6e8-56682d5641bf",
+      "value": "dc9c7b45-50ee-4aaf-a036-e30db3a225b5",
       "domain": ".natter.network",
       "path": "/",
-      "expires": 1736636556,
+      "expires": 1742752775,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -75,17 +75,17 @@
       "value": "",
       "domain": ".natter.network",
       "path": "/",
-      "expires": 1713911356,
+      "expires": 1720027575,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "intercom-device-id-gtxki9gc",
-      "value": "16690e5c-6e1f-4844-9382-e0adf511b8f6",
+      "value": "9cb5d562-fdb6-4508-94c2-629e080e6534",
       "domain": ".natter.network",
       "path": "/",
-      "expires": 1736636559,
+      "expires": 1742752778,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -96,12 +96,12 @@
       "origin": "https://dev.natter.network",
       "localStorage": [
         {
-          "name": "preferredCommunityId-user627495",
-          "value": "4012979"
+          "name": "preferredCommunityId-user4040245",
+          "value": "4012758"
         },
         {
           "name": "intercom.intercom-state-gtxki9gc",
-          "value": "{\"app\":{\"color\":\"#000000\",\"secondaryColor\":\"#000000\",\"openConfig\":{\"layout\":\"default\",\"openTo\":\"home\",\"spaces\":[{\"type\":\"home\",\"label\":\"Home\",\"navigationLabel\":\"Home\",\"badge\":null},{\"type\":\"messages\",\"label\":\"Messages\",\"navigationLabel\":\"Messages\",\"badge\":null},{\"type\":\"tickets\",\"label\":\"Tickets\",\"navigationLabel\":\"Tickets\",\"badge\":null}],\"userHasReceivedChecklists\":false,\"userHasLiveNewsfeed\":false,\"userHasTickets\":false},\"selfServeSuggestionsMatch\":false,\"name\":\"Natter\",\"features\":{\"anonymousInboundMessages\":true,\"googleAnalytics\":false,\"hubspotInstalled\":false,\"inboundMessages\":true,\"marketoEnrichmentInstalled\":false,\"outboundMessages\":true,\"googleAnalytics4Integration\":false},\"launcherLogoUrl\":null,\"helpCenterSiteUrl\":\"https://intercom.help/natter\",\"inboundConversationsDisabled\":false,\"isInstantBootEnabled\":true,\"alignment\":\"right\",\"horizontalPadding\":20,\"verticalPadding\":20,\"isDeveloperWorkspace\":false,\"customGoogleAnalyticsTrackerId\":null},\"launcher\":{\"isLauncherEnabled\":true},\"launcherDiscoveryMode\":{\"hasDiscoveredLauncher\":false},\"user\":{\"role\":\"visitor\",\"locale\":\"en\",\"hasConversations\":false},\"message\":{},\"conversations\":{\"byId\":{}},\"openOnBoot\":{\"type\":null,\"metadata\":{}},\"operator\":{\"lastComposerEvent\":0},\"router\":{\"location\":null,\"action\":null,\"previousLocations\":[]}}"
+          "value": "{\"app\":{\"color\":\"#000000\",\"secondaryColor\":\"#000000\",\"openConfig\":{\"layout\":\"default\",\"openTo\":\"home\",\"spaces\":[{\"type\":\"home\",\"label\":\"Home\",\"navigationLabel\":\"Home\",\"badge\":null},{\"type\":\"messages\",\"label\":\"Messages\",\"navigationLabel\":\"Messages\",\"badge\":null},{\"type\":\"tickets\",\"label\":\"Tickets\",\"navigationLabel\":\"Tickets\",\"badge\":null}],\"userHasReceivedChecklists\":false,\"userHasLiveNewsfeed\":false,\"userHasTickets\":false},\"selfServeSuggestionsMatch\":false,\"name\":\"Natter\",\"features\":{\"anonymousInboundMessages\":true,\"googleAnalytics\":false,\"hubspotInstalled\":false,\"inboundMessages\":true,\"marketoEnrichmentInstalled\":false,\"outboundMessages\":true,\"googleAnalytics4Integration\":false},\"launcherLogoUrl\":null,\"helpCenterSiteUrl\":\"https://intercom.help/natter\",\"inboundConversationsDisabled\":false,\"isInstantBootEnabled\":true,\"alignment\":\"right\",\"horizontalPadding\":20,\"verticalPadding\":20,\"isDeveloperWorkspace\":false,\"customGoogleAnalyticsTrackerId\":null},\"launcher\":{\"isLauncherEnabled\":true},\"launcherDiscoveryMode\":{\"hasDiscoveredLauncher\":false},\"user\":{\"role\":\"visitor\",\"locale\":\"en\",\"hasConversations\":false},\"message\":{},\"conversations\":{\"byId\":{}},\"openOnBoot\":{\"type\":null,\"metadata\":{},\"lastOpenAtTimestamp\":1719422778365},\"operator\":{\"lastComposerEvent\":0},\"router\":{\"isInitialized\":false,\"navigationQueue\":[]}}"
         }
       ]
     }

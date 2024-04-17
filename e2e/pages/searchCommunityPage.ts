@@ -12,13 +12,14 @@ export const searchCommunityField: PageLocator =
 export const searchedCommunityNotFound: PageLocator = getByText(
   "No matching communities found"
 );
-export const searchedCommunityName = (page: Page): Readonly<Locator> =>
-  page.getByTestId("CommunityCard-4012366").getByTestId("CommunityCard-titles");
+export const searchedCommunityName: PageLocator = getByText(
+  "Nigels Search Community Test"
+);
 
 export const searchCommunity: PageAction = async (
   page: Page
 ): Promise<void> => {
-  await searchCommunityField(page).fill("Test");
+  await searchCommunityField(page).fill("Nigels Search Community Test");
 };
 
 export const searchCommunityNotFound: PageAction = async (

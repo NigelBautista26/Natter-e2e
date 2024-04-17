@@ -7,6 +7,7 @@ interface EnvironmentConfigInterface {
 }
 
 interface DeviceConfigInterface {
+  name: string;
   [key: string]: any;
 }
 
@@ -28,25 +29,34 @@ export const getEnvironmentConfig = (): EnvironmentConfigInterface => {
   }
 };
 
-const getDeviceConfig = (device: string): DeviceConfigInterface => {
+export const getDeviceConfig = (): DeviceConfigInterface => {
+  const device = process.env.DEVICE || "desktop";
   switch (device) {
-    case "mobile-chrome":
+    case "mobile:chrome":
       return {
         ...devices["Pixel 5"],
         name: "Mobile Chrome",
       };
-    case "mobile-firefox":
+    case "mobile:firefox":
       return {
         ...devices["Pixel 5"],
         name: "Mobile Firefox",
       };
     case "desktop":
-    case "desktop":
-      return devices["Desktop Chrome"];
-    case "chrome":
-      return devices["Desktop Chrome"];
-    case "firefox":
-      return devices["Desktop Firefox"];
+      return {
+        ...devices["Desktop Chrome"],
+        name: "Desktop Chrome",
+      };
+    case "desktop:chrome":
+      return {
+        ...devices["Desktop Chrome"],
+        name: "Desktop Chrome",
+      };
+    case "desktop:firefox":
+      return {
+        ...devices["Desktop Firefox"],
+        name: "Desktop Firefox",
+      };
     default:
       throw new Error(`Unsupported device: ${device}`);
   }
@@ -60,12 +70,12 @@ const config: PlaywrightTestConfig = {
   reporter: "list",
   globalSetup: path.resolve(
     __dirname,
-    `e2e/utils/globalSetup.ts` // this is only needed when im using the global login...
+    `e2e/utils/globalSetup.ts` // this is only needed when I'm using the global login...
   ),
 
   use: {
     ...getEnvironmentConfig(),
-    ...(process.env.DEVICE ? getDeviceConfig(process.env.DEVICE) : {}),
+    ...getDeviceConfig(),
   },
 };
 

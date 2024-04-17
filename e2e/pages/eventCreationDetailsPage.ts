@@ -100,23 +100,23 @@ export const successfullyCopiedLinkMessage: PageLocator = getByRole({
 });
 
 export const fillEventDate: PageAction = async (page: Page) => {
-  await clickAndWait(dateInput, page, 1000);
-  await clickAndWait(nextMonthButton, page, 1000);
+  await clickAndWait(dateInput, page, 500);
+  await clickAndWait(nextMonthButton, page, 500);
   await selectedDay(page).click();
 };
 
 export const fillEventStartTime: PageAction = async (page: Page) => {
-  await clickAndWait(fromDate, page, 1000);
+  await clickAndWait(fromDate, page, 500);
   await startTimeHour(page).click();
   await startTimeMinutes(page).click();
-  await clickAndWait(timeSetOkButton, page, 1000);
+  await clickAndWait(timeSetOkButton, page, 500);
 };
 
 export const fillEventEndTime: PageAction = async (page: Page) => {
-  await clickAndWait(toDate, page, 1000);
+  await clickAndWait(toDate, page, 500);
   await endTimeHour(page).click();
   await pmTime(page).click();
-  await clickAndWait(timeSetOkButton, page, 1500);
+  await clickAndWait(timeSetOkButton, page, 500);
 };
 
 export const fillMandatoryFields: PageAction = async (page: Page) => {

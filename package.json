@@ -6,12 +6,12 @@
   "scripts": {
     "test:local": "NODE_ENV=test npx playwright test",
     "test:dev": "NODE_ENV=dev npx playwright test",
-    "test:dev:mobile:chrome": "NODE_ENV=dev DEVICE=mobile-chrome npx playwright test",
-    "test:dev:mobile:firefox": "NODE_ENV=dev DEVICE=mobile-firefox npx playwright test",
-    "test:dev:desktop:chrome": "NODE_ENV=dev DEVICE=chrome npx playwright test",
-    "test:dev:desktop:firefox": "NODE_ENV=dev DEVICE=firefox npx playwright test",
-    "test:local:desktop:chrome": "NODE_ENV=local DEVICE=chrome npx playwright test",
-    "test:local:desktop:firefox": "NODE_ENV=local DEVICE=firefox npx playwright test"
+    "test:dev:mobile:chrome": "NODE_ENV=dev DEVICE=mobile:chrome npx playwright test",
+    "test:dev:mobile:firefox": "NODE_ENV=dev DEVICE=mobile:firefox npx playwright test",
+    "test:dev:desktop:chrome": "NODE_ENV=dev DEVICE=desktop:chrome npx playwright test",
+    "test:dev:desktop:firefox": "NODE_ENV=dev DEVICE=desktop:firefox npx playwright test",
+    "test:local:desktop:chrome": "NODE_ENV=local DEVICE=desktop:chrome npx playwright test",
+    "test:local:desktop:firefox": "NODE_ENV=local DEVICE=desktop:firefox npx playwright test"
   },
   "author": "Nigel Bautista",
   "license": "ISC",
